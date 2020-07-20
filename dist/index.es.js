@@ -1392,12 +1392,12 @@ var getStringSet = function getStringSet(lang) {
       CHANNEL_SETTING__LEAVE_CHANNEL__TITLE: 'Leave channel',
       BUTTON__CANCEL: '取消',
       BUTTON__DELETE: '刪除',
-      BUTTON__SAVE: 'Save',
+      BUTTON__SAVE: '完成',
       BUTTON__CREATE: 'Create',
       BUTTON__INVITE: 'Invite',
       BUTTON__CLOSE: 'Close',
       BADGE__OVER: '+',
-      MODAL__DELETE_MESSAGE__TITLE: 'Delete this message?',
+      MODAL__DELETE_MESSAGE__TITLE: '刪除這條信息?',
       MODAL__CHANNEL_INFORMATION__TITLE: 'Edit channel information',
       MODAL__CHANNEL_INFORMATION__CHANNEL_IMAGE: 'Channel image',
       MODAL__CHANNEL_INFORMATION__UPLOAD: 'Upload',
@@ -6547,7 +6547,7 @@ function ThumbnailMessage(_ref) {
           showRemove(true);
           closeDropdown();
         }
-      }, "Delete"));
+      }, "刪除"));
     }
   }), isMessageSent && showReactionAddButton && React.createElement(ContextMenu, {
     menuTrigger: function menuTrigger(toggleDropdown) {
@@ -6849,7 +6849,7 @@ function OutgoingFileMessage(_ref) {
           showRemove(true);
           closeDropdown();
         }
-      }, "Delete"));
+      }, "刪除"));
     }
   }), showReactionAddButton && React.createElement(ContextMenu, {
     menuTrigger: function menuTrigger(toggleDropdown) {
@@ -7469,7 +7469,7 @@ var RemoveMessage = function RemoveMessage(props) {
   return React.createElement(Modal, {
     onCancel: onCloseModal,
     onSubmit: onDeleteMessage,
-    submitText: "Delete",
+    submitText: "刪除",
     titleText: LabelStringSet.MODAL__DELETE_MESSAGE__TITLE
   });
 };
@@ -7557,7 +7557,7 @@ function OutgoingUnknownMessage(_ref2) {
           showRemove(true);
           closeDropdown();
         }
-      }, "Delete"));
+      }, "刪除"));
     }
   })), React.createElement("div", {
     className: "".concat(className, "__body")
