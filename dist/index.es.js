@@ -1380,7 +1380,7 @@ var getStringSet = function getStringSet(lang) {
     en: {
       TRYING_TO_CONNECT: 'Trying to connect…',
       CHANNEL_LIST__TITLE: 'Channels',
-      CHANNEL__MESSAGE_INPUT__PLACE_HOLDER: 'Enter message',
+      CHANNEL__MESSAGE_INPUT__PLACE_HOLDER: '輸入信息',
       CHANNEL__MESSAGE_INPUT__PLACE_HOLDER__DISABLED: 'Chat is unavailable in this channel',
       CHANNEL__MESSAGE_LIST__NOTIFICATION__NEW_MESSAGE: 'new message(s) since',
       CHANNEL__MESSAGE_LIST__NOTIFICATION__ON: 'on',
@@ -6371,7 +6371,7 @@ function IncomingUserMessage(_ref2) {
           copyToClipboard(message.message);
           closeDropdown();
         }
-      }, "Coddd愛的颯颯大事py"));
+      }, "Copy"));
     }
   })));
 }
