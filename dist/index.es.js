@@ -1385,13 +1385,13 @@ var getStringSet = function getStringSet(lang) {
       CHANNEL__MESSAGE_LIST__NOTIFICATION__NEW_MESSAGE: 'new message(s) since',
       CHANNEL__MESSAGE_LIST__NOTIFICATION__ON: 'on',
       CHANNEL_SETTING__HEADER__TITLE: 'Channel information',
-      CHANNEL_SETTING__PROFILE__EDIT: 'Edit',
+      CHANNEL_SETTING__PROFILE__EDIT: '複製',
       CHANNEL_SETTING__MEMBERS__TITLE: 'Members',
       CHANNEL_SETTING__MEMBERS__SEE_ALL_MEMBERS: 'All members',
       CHANNEL_SETTING__MEMBERS__INVITE_MEMBER: 'Invite users',
       CHANNEL_SETTING__LEAVE_CHANNEL__TITLE: 'Leave channel',
-      BUTTON__CANCEL: 'Cancel',
-      BUTTON__DELETE: 'Delete',
+      BUTTON__CANCEL: '取消',
+      BUTTON__DELETE: '刪除',
       BUTTON__SAVE: 'Save',
       BUTTON__CREATE: 'Create',
       BUTTON__INVITE: 'Invite',
@@ -1789,7 +1789,7 @@ var Type = {
   DELETE: 'DELETE',
   DISCONNECTED: 'DISCONNECTED',
   DUMMY: 'DUMMY',
-  EDIT: 'EDIT',
+  EDIT: '編輯',
   ERROR: 'ERROR',
   ERROR_FILLED: 'ERROR_FILLED',
   EMOJI_FAILED: 'EMOJI_FAILED',
@@ -6191,7 +6191,7 @@ function OutgoingUserMessage(_ref) {
           copyToClipboard(message.message);
           closeDropdown();
         }
-      }, "Copy"), isMessageSent && React.createElement(MenuItem, {
+      }, "複製"), isMessageSent && React.createElement(MenuItem, {
         onClick: function onClick() {
           if (disabled) {
             return;
@@ -6200,7 +6200,7 @@ function OutgoingUserMessage(_ref) {
           showEdit(true);
           closeDropdown();
         }
-      }, "Edit"), React.createElement(MenuItem, {
+      }, "編輯"), React.createElement(MenuItem, {
         onClick: function onClick() {
           if (disabled) {
             return;
@@ -6209,7 +6209,7 @@ function OutgoingUserMessage(_ref) {
           showRemove(true);
           closeDropdown();
         }
-      }, "Delete"));
+      }, "刪除"));
     }
   }), isMessageSent && useReaction && emojiAllMap.size > 0 && React.createElement(ContextMenu, {
     menuTrigger: function menuTrigger(toggleDropdown) {
