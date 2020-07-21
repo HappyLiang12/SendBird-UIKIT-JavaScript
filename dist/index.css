@@ -259,7 +259,9 @@
   color: rgba(255, 255, 255, 0.88); }
 
 .sendbird-theme--light .sendbird-label--color-onbackground-2 {
-  color: rgba(0, 0, 0, 0); }
+  color: rgba(0, 0, 0, 0);
+  display: none
+}
 
 .sendbird-theme--dark .sendbird-label--color-onbackground-2 {
   color: rgba(255, 255, 255, 0.5); }
@@ -291,7 +293,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 .sendbird-iconbutton {
   color: #825eeb;
-  display: none;
+  display: inline-block;
   padding: 3px;
   background-color: transparent;
   cursor: pointer;
@@ -1605,7 +1607,9 @@
   background-color: rgba(255, 255, 255, 0.88); }
 
 .sendbird-theme--light .sendbird-color--onbackground-2 {
-  color: rgba(0, 0, 0, 0); }
+  color: rgba(0, 0, 0, 0);
+  display: none
+}
 
 .sendbird-theme--dark .sendbird-color--onbackground-2 {
   color: rgba(255, 255, 255, 0.5); }
