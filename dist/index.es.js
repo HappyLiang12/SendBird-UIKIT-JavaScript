@@ -1824,7 +1824,7 @@ var _ref$2 =
 /*#__PURE__*/
 React.createElement("path", {
   className: "icon-add_svg__fill",
-  fill: "#7B53EF",
+  fill: "rgba(0, 0, 0, 0.88)",
   fillRule: "evenodd",
   d: "M19 2a3 3 0 013 3v14a3 3 0 01-3 3H5a3 3 0 01-3-3V5a3 3 0 013-3zm0 2H5a1 1 0 00-1 1v14a1 1 0 001 1h14a1 1 0 001-1V5a1 1 0 00-1-1zm-7 3a1 1 0 01.993.883L13 8v3h3a1 1 0 01.117 1.993L16 13h-3v3a1 1 0 01-1.993.117L11 16v-3H8a1 1 0 01-.117-1.993L8 11h3V8a1 1 0 011-1z"
 });
@@ -6169,6 +6169,7 @@ function OutgoingUserMessage(_ref) {
         ref: parentRefMenus,
         width: "32px",
         height: "32px",
+        display: "none",
         onClick: toggleDropdown
       }, React.createElement(Icon, {
         width: "24px",
@@ -6218,6 +6219,7 @@ function OutgoingUserMessage(_ref) {
         ref: parentRefReactions,
         width: "32px",
         height: "32px",
+        display: "none",
         onClick: toggleDropdown
       }, React.createElement(Icon, {
         width: "24px",
