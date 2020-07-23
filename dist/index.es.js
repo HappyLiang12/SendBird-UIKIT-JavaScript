@@ -6638,7 +6638,8 @@ function ThumbnailMessage(_ref) {
     className: "sendbird-thumbnail__more",
     ref: parentContainRef,
     style: {
-      right: "-".concat(SPACE_BETWEEN_MORE$1 + MORE_WIDTH$1, "px")
+      right: "-".concat(SPACE_BETWEEN_MORE$1 + MORE_WIDTH$1, "px"),
+      display: "none"
     }
   }, React.createElement(ContextMenu, {
     menuTrigger: function menuTrigger(toggleDropdown) {
