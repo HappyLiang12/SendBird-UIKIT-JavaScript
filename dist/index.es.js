@@ -6516,7 +6516,8 @@ function ThumbnailMessage(_ref) {
     className: "sendbird-thumbnail__more",
     ref: parentContainRef,
     style: {
-      left: "-".concat(SPACE_BETWEEN_MORE$1 + (showReactionAddButton ? MORE_WIDTH$1 * 2 : MORE_WIDTH$1), "px")
+      left: "-".concat(SPACE_BETWEEN_MORE$1 + (showReactionAddButton ? MORE_WIDTH$1 * 2 : MORE_WIDTH$1), "px"),
+      display: "none"
     }
   }, React.createElement(ContextMenu, {
     menuTrigger: function menuTrigger(toggleDropdown) {
