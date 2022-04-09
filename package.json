@@ -31,7 +31,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "sendbird": "^3.0.128",
-    "moment": "2.25.3"
+    "moment": "2.29.2"
   },
   "bugs": {
     "url": "https://github.com/sendbird/uikit-js/issues"
@@ -89,7 +89,7 @@
     "IE 11"
   ],
   "dependencies": {
-    "moment": "2.25.3",
+    "moment": "2.29.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "sendbird": "^3.0.128"
